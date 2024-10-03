@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
-<style>
-</style>
-<head>
-    <p>Mad Lib</p>
-</head>
+    <style>
+        #fname{
+            border:1px solid blue;
+
+
+        }
+    </style>
+    <head>
+        <p>Mad Lib</p>
+    </head>
     <body>
-        <form action="http://127.0.0.1:5000/question" method="POST">
+        <form action="http://127.0.0.1:42069/question" method="POST">
             <div>
-                <input type="text" id="" name="" placeholder="Noun" required>
+                <input type="text" id="" name="noun1" placeholder="Noun" required>
             </div>
 
             <br>
 
             <div>
-                <input type="text" id="" name="" placeholder="Verb" required>
+                <input type="text" id="" name="fname" placeholder="Verb" required>
             </div>
 
             <br>
@@ -42,13 +47,10 @@
             </div>
 
             <br>
-
             <div>
                 <input type="text" id="" name="" placeholder="Noun" required>
             </div>
-
-            <br>
-
+                <br>
             <div>
                 <input type="submit">
             </div>
