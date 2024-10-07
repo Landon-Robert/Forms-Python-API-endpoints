@@ -20,8 +20,7 @@ def endpoint():
     </style>
 </head>
 <body>
-    <h2 style='color:blue;'>Hello, {data['fname']}</h2>"
-    You have successfully sent data to a form!
+    <p>One day, {data['fname']} left their house and went to the {data['location1']}. While they were there, they {data['pasttenseverb1']} several {data['pluralobject']}. After a {data['Adjective']} day, {data['fname']} went home and {data['verb']}.</p>"
 </body>
     """
     return output
